@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '672'
   },
+  // Notice this will override the built-in style
   button: {
     backgroundColor: 'olive'
   }
