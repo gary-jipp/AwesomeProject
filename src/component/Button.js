@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View, Pressable, } from 'react-native';
 
 const Button = (props) => {
-  
+
   return (
     <Pressable style={styles.pressable} onPress={props.onPress}>
       <View style={[styles.button, props.style]}>
@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 5,
-    elevation: 3,
     backgroundColor: '#777',
   },
   text: {
